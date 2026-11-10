@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RMAX Consórcios | Consórcio de imóveis sem juros – R Madri Corretora</title>
+<meta name="description" content="Realize o sonho da casa própria com consórcio de imóveis: sem juros, parcelas que cabem no bolso e atendimento personalizado. Simule agora.">
+<meta property="og:title" content="RMAX Consórcios – Consórcio de imóveis">
+<meta property="og:description" content="Compre, construa ou reforme sem juros. Faça sua simulação gratuita.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/foto-1.jpg">
+<meta name="theme-color" content="#0B1F3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#topo" aria-label="RMAX Consórcios">RMAX<span>Consórcios</span></a>
+  <nav aria-label="Principal">
+    <a href="#consorcio">Consórcio</a><a href="#comparativo">Comparativo</a><a href="#simulador">Simulador</a><a href="#faq">Dúvidas</a>
+  </nav>
+  <a class="btn btn-gold btn-sm" href="#contato">Simular</a>
+</header>
+
+<main id="main">
+<!-- 1. HERO: vídeo controlado pelo scroll -->
+<section class="hero" id="topo" aria-label="Apresentação">
+  <div class="hero-pin">
+    <canvas id="heroCanvas" data-frames="145" data-ext="webp" aria-hidden="true"></canvas>
+    <div class="hero-shade"></div>
+    <div class="hero-text">
+      <div class="stage s1"><span class="tag">Simule</span><h1>A casa própria sem pagar juros.</h1><p>Consórcio de imóveis com planejamento, transparência e parcelas que respeitam o seu orçamento.</p></div>
+      <div class="stage s2"><span class="tag">Escolha</span><h2>Compre, construa ou reforme.</h2><p>Use a carta de crédito do jeito que a sua vida pede: imóvel pronto, terreno, obra ou quitação.</p></div>
+      <div class="stage s3"><span class="tag">Conquiste</span><h2>Comece hoje. Chegue às chaves no seu ritmo.</h2><p>Uma corretora que acompanha você da simulação à entrega das chaves.</p></div>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="#simulador">Simular meu consórcio</a>
+      <a class="btn btn-ghost" data-wa href="#" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </div>
+    <div class="hero-progress" aria-hidden="true"><i id="heroBar"></i></div>
+    <div class="scroll-hint" aria-hidden="true">role para entrar na casa</div>
+  </div>
+</section>
+
+<!-- 2. O QUE É -->
+<section class="sec" id="consorcio">
+  <div class="wrap split">
+    <div data-reveal>
+      <h2>Consórcio de imóveis: o caminho planejado para o seu lar</h2>
+      <p>Um grupo de pessoas se une para formar uma poupança coletiva. Todo mês, cada participante paga sua parcela e, por sorteio ou lance, alguns são contemplados e recebem a carta de crédito para adquirir o imóvel.</p>
+      <p>Como não há financiamento, <strong>não há juros</strong>. Você paga o valor do bem, uma taxa de administração e um fundo de reserva, diluídos no prazo do plano.</p>
+      <p>Todo grupo é fiscalizado pelo Banco Central do Brasil e o crédito pode ser usado em imóveis urbanos, terrenos, construção ou reforma.</p>
+    </div>
+    <figure class="photo photo-2" data-reveal role="img" aria-label="Família diante da casa nova"></figure>
+  </div>
+</section>
+
+<!-- 3. COMPARATIVO -->
+<section class="sec sec-navy" id="comparativo">
+  <div class="wrap">
+    <h2 data-reveal>Consórcio x financiamento</h2>
+    <p class="lead" data-reveal>Veja onde cada modalidade pesa no seu bolso.</p>
+    <div class="table-wrap" data-reveal>
+      <table>
+        <thead><tr><th scope="col">Critério</th><th scope="col" class="hl">Consórcio</th><th scope="col">Financiamento</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Juros</th><td class="hl">Não cobra juros</td><td>Juros sobre o saldo devedor</td></tr>
+          <tr><th scope="row">Custo total</th><td class="hl">Taxa de administração diluída</td><td>Costuma ser bem maior que o valor do bem</td></tr>
+          <tr><th scope="row">Entrada</th><td class="hl">Sem entrada obrigatória</td><td>Geralmente 20% a 30% do imóvel</td></tr>
+          <tr><th scope="row">Parcela</th><td class="hl">Mais baixa, planejada</td><td>Mais alta, com juros embutidos</td></tr>
+          <tr><th scope="row">Acesso ao bem</th><td class="hl">Após contemplação (sorteio ou lance)</td><td>Imediato, após aprovação de crédito</td></tr>
+          <tr><th scope="row">Perfil ideal</th><td class="hl">Quem planeja e quer economizar</td><td>Quem precisa do imóvel agora</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 4. COMO FUNCIONA -->
+<section class="sec" id="como">
+  <div class="wrap narrow">
+    <h2 data-reveal>Como funciona, em 4 passos</h2>
+    <ol class="timeline" id="timeline">
+      <li><h3>Simule e escolha seu plano</h3><p>Defina o valor da carta de crédito e o prazo que cabe no seu orçamento.</p></li>
+      <li><h3>Entre em um grupo</h3><p>Você assina o contrato e passa a pagar parcelas mensais, junto com os demais participantes.</p></li>
+      <li><h3>Concorra à contemplação</h3><p>Todo mês há assembleia com sorteio. Você também pode ofertar lances para antecipar.</p></li>
+      <li><h3>Use sua carta de crédito</h3><p>Contemplado, você escolhe o imóvel, o terreno ou a obra e a administradora faz o pagamento ao vendedor.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 5. VANTAGENS -->
+<section class="sec sec-soft" id="vantagens">
+  <div class="wrap">
+    <h2 data-reveal>Por que escolher o consórcio</h2>
+    <div class="grid">
+      <article class="card" data-reveal><h3>Sem juros</h3><p>Você paga o valor do bem mais taxas previstas em contrato, sem juros compostos.</p></article>
+      <article class="card" data-reveal><h3>Parcelas que cabem no bolso</h3><p>Planos longos e flexíveis para organizar o orçamento sem aperto.</p></article>
+      <article class="card" data-reveal><h3>Crédito para o que você precisa</h3><p>Comprar, construir, reformar ou quitar um imóvel. A escolha é sua.</p></article>
+      <article class="card" data-reveal><h3>Poder de compra à vista</h3><p>Contemplado, você negocia como quem paga à vista e pode conseguir melhores condições.</p></article>
+      <article class="card" data-reveal><h3>Lance para antecipar</h3><p>Use recursos próprios ou o próprio crédito para aumentar suas chances.</p></article>
+      <article class="card" data-reveal><h3>Segurança regulada</h3><p>Administradoras autorizadas e fiscalizadas pelo Banco Central do Brasil.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 6. SIMULADOR -->
+<section class="sec" id="simulador">
+  <div class="wrap narrow">
+    <h2 data-reveal>Simule sua parcela</h2>
+    <p class="lead" data-reveal>Escolha o valor da carta e o prazo. Veja uma estimativa na hora.</p>
+    <div class="sim card" data-reveal>
+      <label for="valor">Valor da carta de crédito: <output id="valorOut">R$ 300.000</output></label>
+      <input id="valor" type="range" min="100000" max="1000000" step="10000" value="300000">
+      <label for="prazo">Prazo: <output id="prazoOut">180 meses</output></label>
+      <input id="prazo" type="range" min="60" max="240" step="12" value="180">
+      <div class="sim-result" aria-live="polite">
+        <span>Parcela estimada</span><strong id="parcela">R$ 0</strong>
+      </div>
+      <p class="fine">Estimativa ilustrativa, considerando taxa de administração e fundo de reserva médios de 20% sobre o crédito. Valores reais variam conforme administradora, grupo e plano.</p>
+      <a class="btn btn-gold" id="simWa" data-wa href="#" target="_blank" rel="noopener">Quero uma simulação oficial</a>
+    </div>
+  </div>
+</section>
+
+<!-- 7. DEPOIMENTOS (placeholders) -->
+<section class="sec sec-soft" id="depoimentos">
+  <div class="wrap">
+    <h2 data-reveal>Quem planejou, conquistou</h2>
+    <div class="grid g3">
+      <blockquote class="card" data-reveal><p>[DEPOIMENTO 1: troque por um relato real de cliente.]</p><footer>[Nome do cliente], [cidade]</footer></blockquote>
+      <blockquote class="card" data-reveal><p>[DEPOIMENTO 2: troque por um relato real de cliente.]</p><footer>[Nome do cliente], [cidade]</footer></blockquote>
+      <blockquote class="card" data-reveal><p>[DEPOIMENTO 3: troque por um relato real de cliente.]</p><footer>[Nome do cliente], [cidade]</footer></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- 8. FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap narrow">
+    <h2 data-reveal>Perguntas frequentes</h2>
+    <details><summary>Consórcio realmente não tem juros?</summary><p>Não há juros. Existem a taxa de administração e o fundo de reserva, informados no contrato antes de você assinar.</p></details>
+    <details><summary>Como sou contemplado?</summary><p>Por sorteio mensal ou por lance. Não há garantia de data de contemplação, por isso o consórcio é ideal para quem planeja.</p></details>
+    <details><summary>Posso usar o crédito para construir ou reformar?</summary><p>Sim, conforme as regras do plano e da administradora. Fale com a gente para entender as condições.</p></details>
+    <details><summary>E se eu não puder pagar uma parcela?</summary><p>Converse com a corretora o quanto antes. Existem alternativas como transferência da cota, conforme o contrato.</p></details>
+    <details><summary>Posso desistir?</summary><p>Sim. A devolução segue as regras da lei e do contrato, geralmente ao final do grupo.</p></details>
+    <details><summary>A simulação do site é oficial?</summary><p>Não. É uma estimativa ilustrativa. A proposta oficial é feita pela corretora.</p></details>
+  </div>
+</section>
+
+<!-- 9. CTA + FORMULÁRIO -->
+<section class="sec cta photo-3" id="contato">
+  <div class="wrap split">
+    <div>
+      <h2>Seu imóvel começa com uma conversa.</h2>
+      <p>Conte o valor que você quer e retornamos com um plano sob medida, sem compromisso.</p>
+    </div>
+    <form class="card form" id="form" novalidate>
+      <label for="nome">Nome</label><input id="nome" required autocomplete="name">
+      <label for="tel">Telefone com DDD</label><input id="tel" type="tel" required autocomplete="tel" inputmode="tel">
+      <label for="vd">Valor desejado</label>
+      <select id="vd"><option>Até R$ 150 mil</option><option>R$ 150 a 300 mil</option><option selected>R$ 300 a 500 mil</option><option>Acima de R$ 500 mil</option></select>
+      <button class="btn btn-gold" type="submit">Receber meu plano</button>
+      <p class="fine">Ao enviar, você abrirá uma conversa no WhatsApp com seus dados.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- 10. RODAPÉ -->
+<footer class="foot">
+  <div class="wrap fgrid">
+    <div><a class="brand" href="#topo">RMAX<span>Consórcios</span></a><p>R Madri Corretora de Imóveis</p></div>
+    <address>
+      <a href="mailto:madrid.corretora@yahoo.com">madrid.corretora@yahoo.com</a><br>
+      Telefone: [(00) 0000-0000]<br>
+      WhatsApp: [(00) 00000-0000]<br>
+      CRECI: [000000-F]<br>
+      [Endereço completo]
+    </address>
+  </div>
+  <p class="wrap legal">Consórcio é regulado pelo Banco Central do Brasil. Contemplação por sorteio ou lance, sem data garantida. Simulações são ilustrativas e não constituem proposta.</p>
+</footer>
+
+<a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.200-1.400A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.200 14.800l-.3-.2-2.400.7.7-2.300-.2-.3A8 8 0 0 1 12 4zm-3 3.500c-.3 0-.7.200-1 .7-.3.500-.8 1.300-.4 2.600.5 1.400 1.600 2.800 3 3.800 1.200.9 2.300 1.300 3.100 1.500.8.200 1.600 0 2-.5.400-.5.500-1 .4-1.200l-1.800-.9c-.3-.1-.5 0-.7.200l-.6.700c-.2.200-.4.200-.6.100-1-.4-2-1.200-2.600-2.300-.1-.2 0-.4.100-.5l.5-.6c.1-.2.100-.4 0-.6L9.700 8c-.2-.4-.4-.5-.7-.5z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
